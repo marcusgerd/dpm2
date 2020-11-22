@@ -1,0 +1,37 @@
+body {
+    /* background-color: green; */
+}
+
+.container {
+    max-width: 720px;
+}
+.row {
+    margin: 0 -20px;
+}
+.row::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.column {
+    float: left;
+    width: calc( 50% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.alignleft {
+    float: left;
+}
+.alignright {
+    float: right;
+}
+.w25 {
+    max-width: 25%;
+}
+.w33 {
+    max-width: 33%;
+}
+.w50 {
+    max-width: 50%;
+}
